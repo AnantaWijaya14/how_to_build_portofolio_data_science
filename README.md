@@ -119,10 +119,7 @@ Beberapa insight yang diperoleh dari project ini:
 German-Credit-Risk/
 │
 ├── german_credit_data.csv
-│   
 │
 ├── German_Credit_Risk.ipynb
 │
-│
 ├── README.md
-└── requirements.txt
