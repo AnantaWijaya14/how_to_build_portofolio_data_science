@@ -144,7 +144,7 @@ Hasil prediksi sebaiknya tetap digunakan bersama analisis dan pertimbangan lain 
 ## Project Structure
 
 ```text
-German-Credit-Risk/
+how_to_build_portofolio_data_science/
 │
 ├── german_credit_data.csv
 │
