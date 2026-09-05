@@ -1,5 +1,8 @@
 # German Credit Risk Prediction
 
+## PPT Source
+link: https://canva.link/jtbj94mn67xhido
+
 ## Project Overview
 
 Project ini bertujuan untuk memprediksi risiko kredit calon debitur menjadi dua kategori, yaitu `Good Risk` dan `Bad Risk`, berdasarkan karakteristik demografi, kondisi finansial, pekerjaan, dan riwayat perbankan.
