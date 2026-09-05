@@ -6,6 +6,22 @@ Project ini bertujuan untuk memprediksi risiko kredit calon debitur menjadi dua 
 
 Project ini dibuat sebagai portfolio Data Science dengan menerapkan proses analisis data dan machine learning secara end-to-end.
 
+## Latar Belakang
+
+Pemberian kredit memiliki risiko ketika calon debitur tidak mampu memenuhi kewajibannya. Oleh karena itu, lembaga keuangan perlu melakukan penilaian terhadap calon debitur sebelum memberikan kredit.
+
+Informasi seperti usia, jumlah kredit, durasi pinjaman, pekerjaan, kondisi tempat tinggal, tabungan, dan rekening dapat digunakan untuk memahami karakteristik calon debitur dan membantu proses penilaian risiko kredit.
+
+Melalui project ini, data tersebut dianalisis untuk menemukan pola yang berkaitan dengan risiko kredit, kemudian digunakan untuk membangun model machine learning yang dapat mengklasifikasikan calon debitur ke dalam kategori `Good Risk` dan `Bad Risk`.
+
+## Permasalahan
+
+Permasalahan utama yang ingin diselesaikan dalam project ini adalah bagaimana memprediksi risiko kredit calon debitur berdasarkan informasi yang tersedia.
+
+Kesalahan dalam menilai risiko dapat menyebabkan calon debitur yang sebenarnya memiliki risiko tinggi dikategorikan sebagai debitur dengan risiko rendah. Hal tersebut dapat meningkatkan kemungkinan terjadinya kredit bermasalah.
+
+Oleh karena itu, dibutuhkan pendekatan berbasis data yang dapat membantu mengidentifikasi karakteristik dan memprediksi risiko kredit calon debitur.
+
 ## Objective
 
 Membangun model machine learning yang dapat membantu mengklasifikasikan risiko kredit calon debitur berdasarkan informasi yang tersedia pada German Credit Dataset.
@@ -13,6 +29,18 @@ Membangun model machine learning yang dapat membantu mengklasifikasikan risiko k
 Target:
 - `good` : risiko kredit baik
 - `bad` : risiko kredit buruk
+
+## Manfaat
+
+Project ini dapat memberikan manfaat sebagai alat bantu dalam proses penilaian risiko kredit.
+
+Beberapa pihak yang dapat memanfaatkan hasil dari project ini antara lain:
+
+- Lembaga keuangan atau bank sebagai pendukung dalam proses penilaian calon debitur.
+- Credit analyst sebagai tambahan informasi dalam melakukan analisis risiko sebelum mengambil keputusan kredit.
+- Manajemen sebagai gambaran mengenai karakteristik debitur dengan risiko kredit yang berbeda.
+
+Model yang dibuat tidak dimaksudkan untuk menggantikan keputusan akhir, tetapi dapat digunakan sebagai salah satu informasi pendukung dalam proses evaluasi kredit.
 
 ## Dataset
 
@@ -101,17 +129,14 @@ Beberapa insight yang diperoleh dari project ini:
 - `Credit amount` memiliki hubungan positif yang cukup kuat dengan `Duration`.
 - Random Forest memberikan F1-Score terbaik dibandingkan model lainnya.
 
-## Tech Stack
+## Rekomendasi
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Imbalanced-learn
-- Jupyter Notebook
-- Google Colab
+Berdasarkan hasil analisis, model Random Forest dapat digunakan sebagai alat bantu untuk mengidentifikasi calon debitur yang berpotensi memiliki risiko kredit buruk.
+
+Selain hasil prediksi model, jumlah kredit dan durasi pinjaman dapat menjadi beberapa faktor yang perlu diperhatikan dalam proses evaluasi calon debitur karena pada dataset ini kelompok `bad` memiliki rata-rata nilai yang lebih tinggi pada kedua fitur tersebut.
+
+Hasil prediksi sebaiknya tetap digunakan bersama analisis dan pertimbangan lain oleh credit analyst, bukan sebagai satu-satunya dasar dalam mengambil keputusan pemberian kredit.
+
 
 ## Project Structure
 
